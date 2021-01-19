@@ -1,5 +1,6 @@
 *, body {
     font-family: 'Viga', sans-serif;
+    color: rgb(46, 46, 46);
 }
 
 /* navbar */
@@ -11,7 +12,7 @@
     color: rgb(199,84,68,1)!important;
 }
 .nav-item .nav-link{
-    color: white!important;
+    color: rgb(241, 241, 241)!important;
     font-size: 14px!important;
 }
 
@@ -19,11 +20,11 @@
 
 /* jumbotron */
 .jumbotron {
-    background-color: blue;
+    background-color: #2E1269;
     background-image: url(assets/img/jumbotron.jpg);
     background-size: cover;
     height: 540px;
-    margin-top: -70px;
+    margin-top: -130px;
     padding-top: 200px;
 }
 .jumbotron .container {
@@ -53,11 +54,26 @@
 
 /* panel */
 .panel{
-    background-color: white;
+    background-color:  #FFBA33;
     margin-top: -70px;
     box-shadow: 0 3px 20px rgba(0,0,0,0.4);
     border-radius: 12px;
     padding: 30px;
+    color: white;
+}
+
+/* testi card */
+.testi .card .card-body{
+    padding: 15px;
+}
+.testi .card {
+    border: none;
+}
+.testi p, .foot p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
 }
 
 /* utility */
@@ -73,9 +89,57 @@
 }
 .mt-100{
     margin-top: 100px;
+    background-color: rgb(241, 241, 241);
+}
+.mt-80{
+    margin-top: 80px;
+    background-color: rgb(241, 241, 241);
+}
+.mt-63{
+    margin-top: 63px;
+    background-color: rgb(241, 241, 241);
 }
 .mt-120{
     margin-top: 120px;
+    background-color: rgb(241, 241, 241);
+}
+.mb-100{
+    margin-bottom: 100px;
+    background-color: rgb(241, 241, 241);
+}
+.mb-120{
+    margin-bottom: 120px;
+    background-color: rgb(241, 241, 241);
+}
+.mt-200{
+    margin-top: 200px;
+    background-color: rgb(241, 241, 241);
+}
+.pt-100{
+    padding-top: 100px; 
+}
+.pb-120{
+    padding-bottom: 120px;
+}
+.pt-200 {
+    padding-top: 200px;
+    background-color: rgb(241, 241, 241);
+}
+.mt-300{
+    margin-top: 300px;
+    background-color: rgb(241, 241, 241);
+}
+.cw {
+    background-color: rgb(241,241,241);
+}
+
+/* footer */
+.foot {
+    background-color: #E5E5E5;
+    padding: 40px;
+}
+footer .footer small{
+    color: rgb(241, 241, 241);
 }
 
 /* desktop version */
@@ -93,6 +157,43 @@
     }
     .jumbotron {
         margin-top: -75px ;
-        height: 640px;
+        height: 700px;
     }
+}
+
+/* ABOUT HTML */
+.intro p, .vm p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    text-align: justify;
+}
+
+/* partner */
+.partner h4 {
+    text-align: center;
+    color: #2E1269;
+}
+
+/* faq */
+.faq {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: #D2EFFF;
+    border-radius: 100%;
+    bottom: 40px;
+    right: 50px;
+
+    text-decoration: none;
+    text-align:center;
+    line-height: 50px;
+    color: #405982;
+    font-size: 20px;
+    box-shadow: 15px 15px 15px rgba(0,0,0,0.05);
+    z-index: 3;
+}
+.card .card-body{
+   background-color: rgb(241, 241, 241);
 }
