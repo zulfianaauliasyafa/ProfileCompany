@@ -27,9 +27,8 @@
 /* jumbotron */
 .jumbotron {
     background-color: #2E1269;
-    background-image: url(assets/img/jumbotron.jpg);
     background-size: cover;
-    height: 540px;
+    height: 1000px;
     margin-top: -130px;
     padding-top: 200px;
 }
@@ -139,6 +138,13 @@
     background-color: rgb(241,241,241);
 }
 
+.elemen1, .elemen2, .elemen3, .elemen4, .elemen5, .elemen6, .elemen7, 
+.elemen8, .elemen9, .elemen10, .elemen11{
+    width: 0%;
+}
+
+
+
 /* footer */
 .foot {
     background-color: #E5E5E5;
@@ -163,7 +169,44 @@ footer .footer small{
     } 
     .jumbotron {
         margin-top: -75px ;
-        height: 700px;
+        height: 730px;
+    }
+    .elemen1{
+        position: absolute; left: 100px; z-index: 1; width: 30%; bottom: 690px;
+    }
+    .elemen2{
+        position:absolute; left: -40px; top: 2900px; z-index: 1; width:200px;
+    }
+    .elemen3{
+        position:absolute; right: 10px; top: 2800px; z-index: 1; width:70px;
+    }
+    .elemen4{
+        position:absolute; left: 100px; top: 2800px; z-index: 1; width:100px;
+    }
+    .elemen5{
+        position: absolute; 
+        left: 300px; 
+        z-index: 1; 
+        top: 4630px; 
+        width: 370px 
+    }
+    .elemen6{
+        position: absolute; right: 0px; top: 640px; z-index: 1;
+    }
+    .elemen7{
+        position:absolute; left: -40px; top: 1000px; z-index: 1; width:200px;
+    }
+    .elemen8{
+        position:absolute; left: 300px; top: 840px; z-index: 1; width:70px;
+    }
+    .elemen9{
+        position:absolute; right: 10px; top: 1400px; z-index: 1; width:200px;
+    }
+    .elemen10{
+        position:absolute; left: -40px; top: 2300px; z-index: 1; width:200px;
+    }
+    .elemen11{
+        position:absolute; right: 0px; top: 2100px; z-index: 1; width:100px;
     }
 }
 
