@@ -210,6 +210,15 @@ footer .footer small{
     }
 }
 
+@media (min-width: 760px) and (max-width: 990px) { 
+    .jumbotron {
+        margin-top: -75px ;
+        height: 600px;
+    }
+ }
+
+
+
 /* ABOUT HTML */
 .intro p, .vm p{
     font-family: 'Roboto', sans-serif;
