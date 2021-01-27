@@ -175,13 +175,13 @@ footer .footer small{
         position: absolute; left: 100px; z-index: 1; width: 30%; bottom: 770px;
     }
     .elemen2{
-        position:absolute; left: -40px; top: 2900px; z-index: 1; width:200px;
+        position:absolute; left: -40px; top: 2800px; z-index: 1; width:200px;
     }
     .elemen3{
-        position:absolute; right: 10px; top: 2800px; z-index: 1; width:70px;
+        position:absolute; right: 10px; top: 2700px; z-index: 1; width:70px;
     }
     .elemen4{
-        position:absolute; left: 100px; top: 2800px; z-index: 1; width:100px;
+        position:absolute; left: 100px; top: 2700px; z-index: 1; width:100px;
     }
     .elemen5{
         position: absolute; 
